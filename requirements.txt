@@ -1,0 +1,4 @@
+mcp>=1.6.0
+alibabacloud-cdn20180510>=1.0.0
+alibabacloud-tea-openapi>=0.3.7
+python-dotenv>=1.0.0 

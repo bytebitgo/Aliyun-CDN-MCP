@@ -1,0 +1,27 @@
+{
+    "mcpServers": {
+        "aliyun-cdn-mcp": {
+            "isActive": true,
+            "name": "Aliyun-CDN-MCP",
+            "command": "e:/mycursor/Aliyun-CDN-MCP/.venv/Scripts/python.exe",
+            "args": [
+                "e:/mycursor/Aliyun-CDN-MCP/main.py"
+            ],
+            "env": {
+                "ALIBABA_CLOUD_ACCESS_KEY_ID": "xxxx",
+                "ALIBABA_CLOUD_ACCESS_KEY_SECRET": "xxxxx"
+            },
+            "disabled": false,
+            "autoApprove": [
+                "add_cdn_domain",
+                "delete_cdn_domain",
+                "modify_cdn_source",
+                "set_cdn_source_port",
+                "set_cdn_protocol",
+                "set_cdn_cache",
+                "set_cdn_https",
+                "set_cdn_headers"
+            ]
+        }
+    }
+} 
