@@ -1,6 +1,6 @@
 # Aliyun CDN MCP (Management Control Panel)
 
-基于FastMCP框架开发的阿里云CDN管理控制面板，提供简单直观的CDN配置和管理功能。
+基于阿里云 CDN的SDK，实现的MCP Server 为实现自然语言添加阿里云CDN，提供了可行性测试
 
 ## 项目架构
 
